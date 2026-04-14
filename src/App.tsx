@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { useRealtimeOps } from './hooks/useRealtimeOps'
 import type { DiningTable, Floor, Reservation, TableShape, TableStatus } from './types'
 
